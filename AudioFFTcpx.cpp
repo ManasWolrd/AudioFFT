@@ -29,7 +29,7 @@
 
 #if defined(AUDIOFFT_INTEL_IPP)
 #define AUDIOFFT_INTEL_IPP_USED
-#include <ipp/ipps.h>
+#include <ipp.h>
 #elif defined(AUDIOFFT_APPLE_ACCELERATE)
 #define AUDIOFFT_APPLE_ACCELERATE_USED
 #include <Accelerate/Accelerate.h>
